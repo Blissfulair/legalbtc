@@ -1,0 +1,147 @@
+.headcoins{background:url(..//images/coins.png) right no-repeat;
+    animation:animatednumbers 15s linear infinite;
+    -moz-animation:animatednumbers 15s linear infinite;
+    -webkit-animation:animatednumbers 15s linear infinite;
+    -o-animation:animatednumbers 15s linear infinite
+}
+    @keyframes animatednumbers{
+        0 {background-position:100% 0}
+        25% {background-position:90% 100%}
+        50%{background-position:100% 0}
+        75%{background-position:90% 100%}}
+        .vc_custom_1531741378678{
+            background:url(..//images/statbg.jpg) repeat-x 0 100% #000433;
+            animation:graph 60s linear infinite;
+            -webkit-animation:graph 60s linear infinite
+            }
+    @keyframes graph{
+        from{background-position:-2000px 100%,0 0}
+        to{background-position:0 100%,0 0}
+    }
+    @-webkit-keyframes graph{
+        from{background-position:-2000px 100%,0 0}
+        to{background-position:0 100%,0 0}
+    }
+    @keyframes intanimatedBackground1{
+        0{background-position:0 0}
+        100%{background-position:-854px 854px}
+    }
+    @-moz-keyframes intanimatedBackground1{
+        0{background-position:0 0}
+        100%{background-position:-854px 854px}
+    }
+    @-webkit-keyframes intanimatedBackground1{
+        0{background-position:0 0}
+        100%{background-position:-854px 854px}
+    }
+    @-o-keyframes intanimatedBackground1{
+        0{background-position:0 0}
+        100%{background-position:-854px 854px}
+    }
+    .intanimation{
+        background-image:url(..//images/header-lines.png);
+        animation:intanimatedBackground1 10s linear infinite;
+        -moz-animation:intanimatedBackground1 10s linear infinite;
+        -webkit-animation:intanimatedBackground1 10s linear infinite;
+        -o-animation:intanimatedBackground1 10s linear infinite
+    }
+    .vc_custom_1531221976897{
+        background:url(..//images/plansbg.jpg) top center!important;
+        background-repeat:no-repeat!important
+    }
+    .vc_custom_1531313736666{background-color:#000537!important}
+    .vc_custom_1531313742873{background-color:#000537!important}
+    .vc_custom_1531313781657{margin-bottom:25px!important}
+    .vc_custom_1531316559867{margin-bottom:25px!important}
+    .vc_custom_1531313739378{background-color:#000537!important}
+    .vc_custom_1531313745825{background-color:#000537!important}
+    .vc_custom_1531317468795{margin-bottom:25px!important}
+    .vc_custom_1531313816626{margin-bottom:25px!important}
+    .vc_custom_1531314757865{border-radius:100%!important}
+    .vc_custom_1531314782893{border-radius:100%!important}
+    .vc_custom_1536314096772{border-radius:100%!important}
+    .vc_custom_1531314698111{border-radius:100%!important}
+    .vc_custom_1536314420423{border-radius:100%!important}
+    .vc_custom_1536314305860{border-radius:100%!important}
+    .vc_custom_1531221934871{background-position:center!important;background-repeat:no-repeat!important;background-size:cover!important}
+    .vc_custom_1531313736666,.vc_custom_1531313739378,.vc_custom_1531313742873,.vc_custom_1531313745825{background-color:#000537!important;-webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;-o-transition:all .3s ease-in-out;-ms-transition:all .3s ease-in-out;transition:all .3s ease-in-out}.vc_custom_1531313736666:hover,.vc_custom_1531313739378:hover,.vc_custom_1531313742873:hover,.vc_custom_1531313745825:hover{background-color:#060d53!important}.vc_custom_1531222660319{padding-top:10px!important;padding-right:50px!important;padding-bottom:45px!important;padding-left:50px!important;background-color:#ffa500!important;-webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;-o-transition:all .3s ease-in-out;-ms-transition:all .3s ease-in-out;transition:all .3s ease-in-out;border-radius:20px}.vc_custom_1531222660319:hover{padding-top:20px!important;padding-right:50px!important;padding-bottom:55px!important;padding-left:50px!important;background-color:#fdca67!important}.vc_custom_1536317059066{margin-bottom:20px!important}.vc_separator.vc_sep_color_grey .vc_sep_line{border-color:#000537}.accb1{min-width:130px;width:11.6%;height:100px;background:#000537;border-radius:10px 10px 10px 10px;-moz-border-radius:10px 10px 10px 10px;-webkit-border-radius:10px 10px 10px 10px;float:left;text-align:center;color:#fff;font-size:14px;margin:0 5px 20px 5px;-webkit-transition:.3s ease-in-out;-moz-transition:.3s ease-in-out;-ms-transition:.3s ease-in-out;-o-transition:.3s ease-in-out;transition:.3s ease-in-out;-webkit-box-shadow:0 7px 15px -9px rgba(0,0,0,.3);-moz-box-shadow:0 7px 15px -9px rgba(0,0,0,.3);box-shadow:0 7px 15px -9px rgba(0,0,0,.3)}.accb1:hover{background:#ffa501;color:#fff}.accb1 img{display:block;padding:15px 0 5px 0;width:45px}
+
+
+    #background{
+        display:block;
+        position:fixed;
+        width:100%;
+        height:100%;
+        background-color: #3c005b;
+        background: -webkit-radial-gradient(center, ellipse cover, #3c005b 1%,#0d0011 100%);
+        background: -moz-radial-gradient(center, ellipse cover, #3c005b 1%,#0d0011 100%);
+        background: -ie-radial-gradient(center, ellipse cover, #3c005b 1%,#0d0011 100%);
+        z-index: 9999999;
+      }
+      
+      #logocontainer{
+        display:block;
+        position:fixed;
+        top:50%;
+        left:50%;
+        width:34vh;
+        height:24vh;
+        margin-left:-17vh;
+        margin-top:-17vh;
+        overflow:hidden;
+        transition:background-color 500ms;
+        cursor:pointer;
+        z-index: 9999999;
+      }
+      
+      #pelogo{
+        display: block;
+        position: absolute;
+        left: 2vh;
+        top: 2vh;
+        width: 30vh;
+        height: 20vh;
+        background: #34324b;
+        background: -moz-linear-gradient(-45deg, #34324b 0%, #161222 100%);
+        background: -webkit-linear-gradient(-45deg, #34324b 0%,#161222 100%);
+        background: linear-gradient(135deg, #34324b 0%,#161222 100%);
+        background-size: contain;
+        font-family: Trebuchet MS, sans-serif;
+        font-size: 2vh;
+        font-weight: bold;
+        color: #3ebffa;
+        text-align: center;
+        line-height: 20vh;
+        z-index: 9999999;
+      }
+      
+      .loader{
+        display:block;
+        position:absolute;
+        background-color:#3ebffa;
+        z-index: 9999999;
+      }
+      
+
+      
+      /*Pretty complex animation, so each side needs its own @keyframes.*/
+      
+      @keyframes slide1{
+        50%{width:32vh; margin-left:0;}
+        100%{margin-left:32vh;}
+      }
+      
+      @keyframes slide2{
+        50%{height:32vh; margin-top:0;}
+        100%{margin-top:32vh;}
+      }
+      
+      @keyframes slide3{
+        50%{width:32vh; margin-right:0;}
+        100%{margin-right:32vh;}
+      }
+      
+      @keyframes slide4{
+        50%{height:32vh; margin-bottom:0}
+        100%{margin-bottom:32vh;}
+      }

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+    <html lang="en-US">
+        <%- include('../_partials/account_header') %>
+        <body class="home page-template-default page page-id-6 stickyheader header-spacing-off wpb-js-composer js-comp-ver-5.4.5 vc_responsive">
+            <div class="site">
+              <div class="site-wrap">
+                    <%- include('../_partials/nav') %>
+                    <div style="height: 220px; margin-bottom: 0px;background: url(images/header.jpg) bottom right no-repeat #0a1992;"></div>
+
+
+
+                    <main class="site-main"><div class="container content-container"><div class="row"><div class="col-md-12"><div class="page-content-wrap"><div style="background: #000537; color: #fff; padding: 50px 0px"><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-offset-2 vc_col-md-8"><div class="vc_column-inner"><div class="wpb_wrapper"><h3 class="anps-heading" style="text-align: center;"><span style="font-weight: 700;" data-rstyle="margin-bottom:|||20;font-size:|||;line-height:|||;" class="anps-heading__text">Members login</span></h3><p class="anps-heading" style="text-align: center;"><span style="font-weight: 300;" data-rstyle="margin-bottom:|||;font-size:|||20;line-height:|||;" class="anps-heading__text"></span></p><div data-rstyle="height:|||30;" class="anps-empty-space"></div><div role="form" class="wpcf7" id="wpcf7-f4-p641-o1" lang="en-US" dir="ltr"><div class="screen-reader-response"></div>
+      
+      
+      
+      
+      
+            <%- include('../_partials/message', {message:message}) %>
+      
+      
+                                      <form action="/login" method="POST">
+      
+       
+      
+              <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text"><i class="fa fa-envelope-o" style="color: #ffad21; margin-right: 5px"></i></span>
+          </div>
+          <input type="email" placeholder="Email" required name="email" value="" class="form-control" id="email">
+          </div>
+      
+          <div class="input-group mb-3">
+          <div class="input-group-prepend">
+        
+          </div>
+          <input type="password" placeholder="Password" class="form-control" id="pwd" required name="password">
+          </div>
+          <button name="loginbtn" type="submit" class="btn btn-primary mb-2" style="width: 100%">Submit  </button>
+               
+                
+                 
+                                              
+              </form>
+                      
+                                  
+              </div>
+               Not a Member yet..<a href="/register">Register</a>
+        
+        
+        </div><br/></fieldset></div><div class="wpcf7-response-output wpcf7-display-none"></div>
+      </form>
+      
+      
+      </div></div></div></div></div></div></div></div></div></div></main>
+      
+                    <%- include('../_partials/footer') %>
+                </div>
+            </div>
+        </body>
+    </html>

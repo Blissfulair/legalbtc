@@ -1,0 +1,58 @@
+<footer class="site-footer"><div class="container">
+    <div class="site-footer__main"><div class="row"><div class="site-footer__col site-footer__col--lg"><div id="anpsimages-2" class="widget widget_anpsimages"><img alt="CryptoNode" src="images/legal_btc_logo.png" style="width: 250px"/></div><div id="anpsspacings-4" class="widget widget_anpsspacings"><div class="empty-space block" style="height: 34px;"></div></div><div id="text-2" class="widget widget_text"><div class="textwidget"><p style="text-align: justify">When you need a wealth management company to handle your private investment matters, <% if(basic){ %> <%= basic.sitename %>  <% } %>is the leading overseas private investment corporation you can count on.</p></div></div></div><div class="site-footer__col"><div id="nav_menu-3" class="widget widget_nav_menu"><h3 class="widget-title"><% if(basic){ %> <%= basic.sitename %> <% } %></h3><div class="menu-services-container"><ul id="menu-services" class="menu"><li id="menu-item-925" class="menu-item menu-item-type-post_type menu-item-object-portfolio menu-item-925"><a href="/">Home</a></li><li id="menu-item-926" class="menu-item menu-item-type-post_type menu-item-object-portfolio menu-item-926"><a href="/about-us">About us</a></li><li id="menu-item-927" class="menu-item menu-item-type-post_type menu-item-object-portfolio menu-item-927"><a href="/faq">FAQ</a></li></ul></div></div></div><div class="site-footer__col"><div id="nav_menu-4" class="widget widget_nav_menu"><h3 class="widget-title">Terms of Use</h3><div class="menu-terms-of-use-container"><ul id="menu-terms-of-use" class="menu"><li id="menu-item-949" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-949"><a href="/rules">Terms and Conditions</a></li><li id="menu-item-950" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-950"><a href="rules.html">Copyright</a></li></ul></div></div></div><div class="site-footer__col"><div id="text-6" class="widget widget_text"><h3 class="widget-title">Contact</h3><div class="textwidget"><p><% if(basic){ %> <%= basic.email %> <% } %><br/><br/><% if(basic){ %> <%= basic.address %> <% } %></p></div></div></div></div></div></div><div class="copyright-footer"><div class="container"><div class="copyright-footer__row"><div class="copyright-footer__col"><div id="text-3" class="widget widget_text"><div class="textwidget"><p>Copyright © 2015 - <%= new Date().getFullYear() %> <% if(basic){ %> <%= basic.sitename %>  <% } %>LTD. All rights reserved.</p></div></div></div><div class="copyright-footer__col copyright-footer__col--right"><div id="nav_menu-5" class="widget widget_nav_menu"><div class="menu-social-links-container"><ul id="menu-social-links" class="menu"><li id="menu-item-1057" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1057"><a href="#"></a></li><li id="menu-item-1058" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1058"><a href="#">Telegram</a></li><li id="menu-item-1059" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1059"><a href="#"></a></li></ul></div></div></div></div></div></div>
+</footer>
+
+<script type="text/javascript" src="js/modernizr.js"></script>
+<script type="text/javascript" src="js/pikaday.js"></script>
+<script type="text/javascript" src="js/jquery.swipebox.js"></script>
+<script type="text/javascript" src="js/bootstrap/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.countdown.min.js"></script>
+<script type="text/javascript" src="js/doubletaptogo.js"></script>
+<script type="text/javascript" src="js/flexibility.js"></script>
+<script type="text/javascript">var anps={crypto_values:"",};</script>
+<script type="text/javascript" src="js/functions.js"></script>
+<script type="text/javascript" src="js/owlcarousel/owl.carousel.js"></script>
+<script type="text/javascript" src="js/dist/js_composer_front.min.js"></script>
+<script src="//code.tidio.co/34arzz6pxwus6burr3i5odrwoywhqq34.js" async></script>
+<% if(basic){ %>
+    <!-- WhatsHelp.io widget -->
+    <script type="text/javascript">
+        (function () {
+            var options = {
+                whatsapp: basic.phone, 
+                text: "Hello, how may we help you? Just send us a message now to get assistance.",
+                abid:basic.phone,// WhatsApp number
+               
+                call_to_action: "Message us", // Call to action
+                position: "left", // Position may be 'right' or 'left'
+            };
+            var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
+            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+            s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+        })();
+    </script>
+    <!-- /WhatsHelp.io widget --> 
+    <% } %>
+<script>
+    var full=false;
+
+function fill(){
+  full=!full;
+  document.getElementById("logocontainer").style.backgroundColor=full?"#3ebffa":"transparent";
+}
+const init=()=>{
+    document.getElementById("logocontainer").style.display="none"
+    document.getElementById("background").style.display="none"
+}
+if(document.readyState === 'complete'){
+    init()
+
+}
+const readyStateCheckInterval = setInterval(function() {
+    if (document.readyState === "complete") {
+        clearInterval(readyStateCheckInterval);
+        init();
+    }
+}, 10);
+</script>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+    <html lang="en-US">
+        <%- include('../_partials/account_header') %>
+        <body class="home page-template-default page page-id-6 stickyheader header-spacing-off wpb-js-composer js-comp-ver-5.4.5 vc_responsive">
+            <div class="site">
+              <div class="site-wrap">
+                    <%- include('../_partials/nav') %>
+                    <div style="height: 220px; margin-bottom: 0px;background: url(images/header.jpg) bottom right no-repeat #0a1992;"></div>
+  
+                    <main class="site-main"><div class="container content-container"><div class="row"><div class="col-md-12"><div class="page-content-wrap"><div style="background: #000537; color: #fff; padding: 50px 0px"><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-offset-2 vc_col-md-8"><div class="vc_column-inner"><div class="wpb_wrapper"><h3 class="anps-heading" style="text-align: center;"><span style="font-weight: 700;" data-rstyle="margin-bottom:|||20;font-size:|||;line-height:|||;" class="anps-heading__text">Withdraw Cash....</span></h3><p class="anps-heading" style="text-align: center;"><span style="font-weight: 300;" data-rstyle="margin-bottom:|||;font-size:|||20;line-height:|||;" class="anps-heading__text"></span></p><div data-rstyle="height:|||30;" class="anps-empty-space"></div><div role="form" class="wpcf7" id="wpcf7-f4-p641-o1" lang="en-US" dir="ltr"><div class="screen-reader-response"></div>
+  
+                        <script>
+                                                    window.onload = function(){
+                                                        var id = Math.ceil(Math.random() * 1000000);
+                                                        document.getElementById("userid").value = id;
+                                                    }
+                                                </script>
+                                                
+                                                    
+                    
+                    
+                                                  
+                    
+                                                  <form method="POST" class="validate" action="">
+                                                        <h1>Withdraw your profit by </h1>
+                          <p>Please fill in this form to get your money transfered to your account.</p>
+                    
+                           <div class="form-group">
+                            <label>Account Email</label>
+                              <input name="useremail" id="useremail" type="text" class="form-control" value="<%= user.email %>" readonly/>
+                          </div>
+                                    <div class="form-group">
+                                <input type="text" placeholder="Amount" required name="amount" value="" class="form-control">
+                                <div id="" class="form_hint"></div>
+                            </div>
+                             <div class="form-group">
+                                <input type="text" placeholder="Bank Name" required name="bank" value="" class="form-control">
+                              
+                            </div>
+                            
+                            <div class="form-group">
+                                <input type="tel" id="mobile-number" oninput="this.value = this.value.replace(/[^0-9+]/g, '')" required name="account" value="" class="form-control" placeholder="Account Number">
+                            
+                            </div>
+                           
+                            <div class="form-group">
+                                <input type="password" placeholder="Password" name="password" id="password" required  class="form-control">
+                                
+                            </div>
+                            <div class="form-group">
+                                <input type="password" placeholder="Confirm Password" required name="password2" class="form-control">
+                            </div>
+                           
+                            <div class="form-group"><input type="checkbox" name="agree" required checked> I agree to legalbtcmining <a href="/rules" target="_blank">Terms and conditions</a>
+                            </div>
+                            <button name="cashwithdrawalbtn" type="submit" class="btn btn-primary mb-2" style="width: 100%">Withdraw Cash <span class="spinner-grow spinner-grow-sm"></span> </button>
+                             
+                        </form>
+                    
+                    
+                    
+                    
+                            </div>
+                               For bitcoin  <a href="/withdraw">Withdraw</a></div>
+                    
+                    
+                    
+                    
+                      </div><br/></fieldset></div><div class="wpcf7-response-output wpcf7-display-none"></div></form></div></div></div></div></div></div></div></div></div></div></main>
+                    
+
+                    
+                    
+      
+                    <%- include('../_partials/footer') %>
+                </div>
+            </div>
+        </body>
+    </html>
